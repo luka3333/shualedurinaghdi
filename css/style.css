@@ -1,0 +1,154 @@
+.container{
+	width:1170px;
+	margin:0 auto;
+	
+
+}
+.right{
+	float:right;
+}
+.left{
+	float:left;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+
+}
+
+.logo{
+	width:100px;
+	animation: animation 2s infinite;
+}
+.social-img{
+	height: 25px;
+}
+.navigation-li{
+	display: inline-block;
+	vertical-align: middle; 
+}
+.social-li{
+	display: inline-block;
+	vertical-align: middle;
+	
+}
+.navigation{
+	margin-right:200px;
+}
+.navigation-a{
+	font-size: 26px;
+	color:blue;
+	margin-right:45px;
+}
+.header{
+	padding:20px 0;
+}
+.social-li::after{
+	content: "";
+	width:2px;
+	height: 25px;
+	background-color:red;
+	display: inline-block;
+	margin:0 10px;
+}
+.social-li.facebook1::after{
+	display: none;
+}
+.banner1{
+	background-color:;
+	padding:20px 0;
+
+}
+
+.header{
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+	background-color:pink;
+	z-index:3;
+}
+body{
+	padding-top:75px;
+}
+
+
+.relative{
+	position:relative;
+}
+.absolute-ul{
+	position:absolute;
+	left:30px;
+	bottom:90px;
+	transition: background 1s linear .0.5s;
+}
+.absolute-logo{
+	position:absolute;
+	width:90px;
+	bottom:40px;
+	right:50px;
+	animation: anim 3s infinite;
+
+
+}
+.absolute-li2{
+	font-size: 30px;
+	color:pink;
+	transition: background .2s linear .2s;	
+}
+.absolute-li{
+	font-size: 30px;
+	color:pink;
+	transition: background .2s linear .2s;
+	
+}
+
+
+.absolute-logo:hover{
+	right:30px;
+	bottom:20px;
+
+}
+.navigation-a:hover{
+   color:red;
+
+
+}
+
+.absolute-li:hover{
+	background-color:black;
+
+
+}
+
+
+@keyframes anim{
+	20%{
+		right:20px;
+	}
+	40%{
+		right:40px;
+	}
+	60%{
+		right:60px;
+	}
+	80%{
+		right:20px;
+	}
+	100%{
+		right:40px;
+	}
+}
+.backrgound{
+	background-image:url("../img/gif.gif");
+	height:900px;
+	width: 1200px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position:center;
+
+}
+a{
+	text-decoration: none;
+}
